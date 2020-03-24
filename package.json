@@ -1,0 +1,35 @@
+{
+  "name": "HW-Lesson-17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrpt.js",
+  "scripts": {
+    "lint:eslint": "npx eslint *.js",
+    "lint:eslint:fix": "npx eslint *.js --fix",
+    "test:watch": "npx jest --watch",
+    "pretest": "npm run lint:eslint",
+    "test": "npx jest --coverage",
+    "posttest": "echo 'posttest'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreft-89/HW-Lesson-17.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreft-89/HW-Lesson-17/issues"
+  },
+  "homepage": "https://github.com/dreft-89/HW-Lesson-17",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.1.0"
+  }
+}
