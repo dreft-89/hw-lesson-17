@@ -1,7 +1,7 @@
 {
-  "name": "HW-Lesson-17",
+  "name": "HW-lesson-17",
   "version": "1.0.0",
-  "description": "",
+  "description": "Написать функцию на JS вычисляющая дискриминант и корни квадратного уравнения.",
   "main": "scrpt.js",
   "scripts": {
     "lint:eslint": "npx eslint *.js",
@@ -13,18 +13,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dreft-89/HW-Lesson-17.git"
+    "url": "git+https://github.com/dreft-89/HW-lesson-17.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dreft-89/HW-Lesson-17/issues"
+    "url": "https://github.com/dreft-89/HW-lesson-17/issues"
   },
-  "homepage": "https://github.com/dreft-89/HW-Lesson-17",
+  "homepage": "https://github.com/dreft-89/HW-lesson-17#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
     "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-html": "^6.0.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-node": "^11.0.0",
